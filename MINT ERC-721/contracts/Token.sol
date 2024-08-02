@@ -8,7 +8,7 @@ contract MintERC721 is ERC721 {
 
     event ERC721Minted(address recipient, uint256 tokenId);
 
-    constructor() ERC721("ggGodvia721", "GG721") {}
+    constructor() ERC721("Kyoshu", "KYOSH") {}
 
     function mintERC721(address recipient) public returns (uint256) {
         _currentTokenId += 1;
