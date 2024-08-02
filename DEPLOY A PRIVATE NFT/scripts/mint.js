@@ -15,7 +15,7 @@ const sendShieldedTransaction = async (signer, destination, data, value) => {
 }
 
 async function main() {
-  const contractAddress = "0x9E32B14249a399DcDAF4979cc503680b249Ce071";
+  const contractAddress = "0xc1583B5c69b4FCB39567d961B825dc2714151ef0";
 
   const [signer] = await ethers.getSigners()
 

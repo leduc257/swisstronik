@@ -10,7 +10,7 @@ contract PrivateNFT is ERC721, Ownable {
     event NFTMinted(address recipient, uint256 tokenId);
     event NFTBurned(uint256 tokenId);
 
-    constructor(address initialOwner) ERC721("ggPrivate", "ggPRVT") Ownable(initialOwner) {}
+    constructor(address initialOwner) ERC721("KyoshuPriv", "KYOSHPRIV") Ownable(initialOwner) {}
 
     function mintNFT(address recipient) public onlyOwner returns (uint256) {
         _currentTokenId += 1;
